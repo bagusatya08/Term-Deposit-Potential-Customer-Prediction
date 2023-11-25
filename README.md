@@ -54,11 +54,27 @@ This project applies a supervised machine learning approach as a solution for un
 
 ## Potential Customer Prediction
 
+**Marketing Campaign Analysis:**
+Marketing campaign analysis for a banking institution's term deposit program focuses on evaluating the rate at which individuals subscribing to the term deposit after engaging with the campaign. This analysis centers on metrics like click-through rates and the conversion rate from interested prospects to actual subscribers. It aims to gauge the campaign's efficiency in converting prospects into term deposit subscribers, enabling the bank to refine strategies, optimize communication channels, and tailor messages for maximum subscriber conversion and financial impact.
+
+**Objective:**
+The focus of this project is to produce analysis that can answer several questions regarding marketing campaign analysis as follows.
+- How are the profile of prospective bank customers from the Term Deposit Marketing Program?
+- What are the significant factors that made customer convert to the program?
+- How the predictive models can be implemented to Banking Institution Business Prosess?
+
 ### Analysis
 
+**Customer Profile**
+
+**Marketing Strategies**
+
+**Feature Importances**
+
+**Implementation of Predictive Models to Banking Institution**
 
 ### Modeling
-
+The use of Random Forest via Hyperparameter Tuning with RandomSearchCV() was selected as the best model from the evaluation metrics Accuracy Score 0.96, & Precision Score 0.95. These results were taken from the second iteration of the experiment because of the poor results obtained from the first iteration where the model had a tendency to over-fit. The explanation is shown as follows.
 
 ### Explainability
 
