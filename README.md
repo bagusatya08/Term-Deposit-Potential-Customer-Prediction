@@ -9,6 +9,7 @@ This project applies a supervised machine learning approach as a solution for un
 
 ## Project Organization
 ```
+.
 ├── dataset-used/                                         : Storage Directory for Dataset Used on Project consist of separated Train & Test
 │   └── Banking/
 │       ├── train.csv
@@ -17,7 +18,6 @@ This project applies a supervised machine learning approach as a solution for un
 │   └── Report Project Planning.pdf
 ├── stage-1/                                              : Storage Directory for Output Progress on Second Week
 │   ├── EDA + Business Insights.ipynb
-│   ├── error-files.ipynb                                 : corrupted files with collaborator works
 │   └── Report EDA + Business Insights.pdf
 ├── stage-2/                                              : Storage Directory for Output Progress on Third Week
 │   ├── first-iteration/                                  : Contains Pre-Processing Output on First Iteration
@@ -38,7 +38,7 @@ This project applies a supervised machine learning approach as a solution for un
 │   │   ├── Modeling_Decision-Tree_Random-Forest.ipynb
 │   │   └── Modeling_Decision-Logreg_KNN.ipynb
 │   ├── second-iteration
-│   │   ├── output/                                       : Output ftom Random Forest Modeling consist of dot & png
+│   │   ├── output/                                       : Output from Random Forest Modeling consist of dot & png
 │   │   │   ├── decision_tree.dot
 │   │   │   ├── tree.dot
 │   │   │   ├── tree.png
@@ -66,6 +66,11 @@ The focus of this project is to produce analysis that can answer several questio
 ### Analysis
 
 **Customer Profile**
+
+<img src=https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20distribution.png>
+<img src=https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20corellated%20to%20balance.png>
+
+<img src=https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/customer%20profile.png>
 
 **Marketing Strategies**
 
