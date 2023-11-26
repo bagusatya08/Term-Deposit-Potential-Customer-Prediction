@@ -68,7 +68,7 @@ The focus of this project is to produce analysis that can answer several questio
 **Customer Profile**
 
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20distribution.png' alt='Age Distribution' align='center'>
-<img src=https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20corellated%20to%20balance.png>
+<img align='center' src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20corellated%20to%20balance.png'>
 
 <img src=https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/customer%20profile.png>
 
