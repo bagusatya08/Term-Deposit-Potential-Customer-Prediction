@@ -66,27 +66,33 @@ The focus of this project is to produce analysis that can answer several questio
 - How the predictive models can be implemented to Banking Institution Business Prosess?
 
 ### Analysis
+Analysis done in this section are perfomed to answer objectives above.
 
-**Customer Profile**
+**Customer Profile based on Age & Balance Features**
+**Assumption:**
+From Banking Prespective the Potential Customer based on Age & Balance are the one who having big amount of balance and correlated to age assume to be around prime carrer age (higher age).
 
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20distribution.png'>
+Plot showed above are balance distribution after normalization done with IQR method. There are range of customer age from 18 to 72 years old which can considered as normal age range without false outlier. Important insight gain from the plot are the range of converted customer based on age are grouped around range of 25 to 60 years old. So based on these plot we can assumed if we want to understand the customer profile based on age that
+1. The higher conversion rate customer are scatter around age of 25 to 60 years old
+2. & Low conversion rate are scatter before 25 & after 60 years old.
+
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20correllated%20to%20balance.png'>
-
-<img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/customer%20profile.png'>
-
-**Marketing Strategies**
-
-**Feature Importances**
-
-**Implementation of Predictive Models to Banking Institution**
+From above, we need to search for more evidance to proof our assumption based on data, so the team does correlate the age feature to balance. The result shown that it is true, that customer on age ranges of 25 to 60 having higher balance than the rest with parameter of 40.000 euros divided by blue line on plot to be spesific age in ranges of 30 to 60 years old. To confirm this findings, team also done statistical significance testing using Kruskal-Wallis and the two group correlated of age and balance are having significance median values. Here are the two group listed.
+> Potential Customer Group based on Assumption: Age range of 25 to 60 & higher balance
+> Non-Potential Customer Group based on Assumption: Age before 25 & after 60 with lower balance
 
 ### Modeling
-The use of Random Forest via Hyperparameter Tuning with RandomSearchCV() was selected as the best model from the evaluation metrics Accuracy Score 0.96, & Precision Score 0.95. These results were taken from the second iteration of the experiment because of the poor results obtained from the first iteration where the model had a tendency to over-fit. The explanation is shown as follows.
+The use of **Random Forest via Hyperparameter Tuning with GridSearchCV() was selected as the best model from the evaluation metrics Accuracy Score 0.96, & Precision Score 0.95.** These results were taken from the second iteration of the experiment because of the poor results obtained from the first iteration where the model had a tendency to over-fit. The explanation is shown as follows.
 
 <p align="center">
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/confusion%20matrix%20result.png'>
+<img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/feature%20importance.png'>
 </p>
 
-### Explainability
+From the Feature Importance, shown that feature 'duration' having the best score out of other feature. To elaborate more about the feature importance here are graph shown the usage of SHAP method to understand the ML output probability & causlities correlation between features.
+<p align="center">
+<img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/confusion%20matrix%20result.png'>
+</p>
 
 ## Project Conclusion
