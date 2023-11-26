@@ -77,7 +77,9 @@ Plot showed above are balance distribution after normalization done with IQR met
 1. The higher conversion rate customer are scatter around age of 25 to 60 years old
 2. & Low conversion rate are scatter before 25 & after 60 years old.
 
+<p align="center">
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/age%20correllated%20to%20balance.png'>
+<p>
 From above, we need to search for more evidance to proof our assumption based on data, so the team does correlate the age feature to balance. The result shown that it is true, that customer on age ranges of 25 to 60 having higher balance than the rest with parameter of 40.000 euros divided by blue line on plot to be spesific age in ranges of 30 to 60 years old. To confirm this findings, team also done statistical significance testing using Kruskal-Wallis and the two group correlated of age and balance are having significance median values. Here are the two group listed.
 > Potential Customer Group based on Assumption: Age range of 25 to 60 & higher balance
 > Non-Potential Customer Group based on Assumption: Age before 25 & after 60 with lower balance
