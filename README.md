@@ -87,14 +87,17 @@ From above, we need to search for more evidance to proof our assumption based on
 ### Modeling
 The use of **Random Forest via Hyperparameter Tuning with GridSearchCV() was selected as the best model from the evaluation metrics Accuracy Score 0.96, & Precision Score 0.95.** These results were taken from the second iteration of the experiment because of the poor results obtained from the first iteration where the model had a tendency to over-fit. The explanation is shown as follows.
 
+
 <p align="center">
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/confusion%20matrix%20result.png'>
 <img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/feature%20importance.png'>
 </p>
 
-From the Feature Importance, shown that feature 'duration' having the best score out of other feature. To elaborate more about the feature importance here are graph shown the usage of SHAP method to understand the ML output probability & causlities correlation between features.
-<p align="center">
-<img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/confusion%20matrix%20result.png'>
-</p>
+From the Feature Importance, shown that feature 'duration' having the best score out of other feature.
 
 ## Project Conclusion
+In the end how the model can implemented to business process explained as per this ilustration.
+
+<p align="center">
+<img src='https://github.com/bagusatya08/Term-Deposit-Potential-Customer-Prediction/blob/main/images/business%20process.png'>
+</p>
